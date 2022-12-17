@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>htm Demo</title>
+<header>
+<link href="bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<script src="bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</header>
+
+<body>
+    <form method="post"
+          action="http://localhost:7042/api/Function1"
+          action3="https://autohotkeyfunc120221211180759.azurewebsites.net/api/Function1"
+    >
+        <label for="scriptName" class="form-label">Name</label>
+        <input type="text" class="form-control" name="scriptName" id="scriptName">
+        <label for="scriptText" class="form-label">Content</label>
+        <textarea class="form-control" id="scriptText" name="scriptText"></textarea>
+        <button type="submit" class="btn btn-primary">Generate Exe</button>
+    </form>
+</body>
+</html>
